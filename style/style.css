@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ body {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* google font */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+  /* all nave bar */
+  .nave-bar {
+    display: flex
+;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    margin-right: 100px;
+}
+
+  /* nav button */
+  button.Sign-in {
+    height: 35px;
+    width: 100px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    color: green;
+    border: none;
+    border:1px solid green ;
+    cursor: pointer;
+    
+}
+ 
+/* nav button hover  */
+button.Sign-in:hover{
+    background-color:rgb(93, 218, 93) ;
+}
+  
+/* nave hedar font size */
+h1.h1-bd {
+    font-size: 32px;
+    margin-left: 90px;
+    font-weight: bold;
+
+}
+
+/* nave-bar end */
+
+/* all header section st */
+.all-header {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    gap: 64px;
+    padding: 100px;
+}
+/* bd-title  */
+h5.bd-title {
+    font-size: 24px;
+    color: #00000069;
+}
+/* idea-title */
+h1.idea-title {
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+/* header-btn */
+button.header-btn {
+    height: 56px;
+    width: 270px;
+    border-radius: 17px;
+    background-color: #006a50;
+    border: none;
+    color:white;
+    font-size: 17px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+/* button.header-btn hover */
+button.header-btn:hover{
+    background-color: #b8b8b8;
+
+}
+/* section.header-section  */
+section.header-section {
+    background-color: #c6e4d6;
+    height: 560px;
+    width: 1280px;
+    margin-left: 70px;
+    border-radius: 24px;
+}
+/* section.header-section end */
+
+
+h1.Pillars {
+    font-size: 40px;
+    font-weight: bold;
+}
+/* opsonal-section st */
+.all-opsonal-section {
+    margin-top: 80px;
+    margin-left: 70px;
+}
+h3.Innov {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+p.Dolor {
+    font-size: 16px;
+    color: #616161;
+    margin-top: 30px;
+
+}
+.opsonal-box {
+    margin-top: 32px;
+}
+/* card-box st */
+.card-box {
+    background-color: #ffffff;
+    height: 210px;
+    width: 250px;
+    padding: 24px;
+    border-radius: 16px;
+   border: 1px solid rgb(102, 102, 102);
+}
+.opsonal-box {
+    display: flex;
+    gap: 24px;
+}
+
+/* main-marss1 */
+.main-marss1{
+    background-color: #ffffff;
+    height: 280px;
+    width: 350px;
+    padding: 24px;
+    border-radius: 16px;
+   background-color: #d5e1f5;
+}
+.main-mark1 {
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.main-marss1 {
+    margin-top: 32px;
+}
+/* button.main-mark-btn st */
+button.main-mark-btn {
+    height: 41px;
+    width: 140px;
+    margin-top: 25px;
+    background-color: #5490f5;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+/* button.main-mark-btn1 */
+button.main-mark-btn1{
+    height: 41px;
+    width: 140px;
+    margin-top: 25px;
+    background-color: #09a15c;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+/* button.main-mark-btn2 */
+button.main-mark-btn2 {
+    height: 41px;
+    width: 140px;
+    margin-top: 25px;
+    background-color: #ffc239;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+button.main-mark-btn:hover{
+    background-color: lightsteelblue;
+}
+button.main-mark-btn1:hover{
+    background-color: lightsteelblue;
+}
+button.main-mark-btn2:hover{
+    background-color: lightsteelblue;
+}
+.main-contolar {
+    display: flex
+;
+    gap: 35px;
+}
+/* .main-marss2 */
+.main-marss2 {
+    background-color: #ffffff;
+    height: 280px;
+    width: 350px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #c6e4d6;
+    margin-top: 32px;
+}
+/* .main-marss3 */
+.main-marss3 {
+    background-color: #ffffff;
+    height: 280px;
+    width: 350px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #f7ebcf;
+    margin-top: 32px;
+}
