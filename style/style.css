@@ -430,6 +430,9 @@ button.Done:hover {
 button.Done {
     margin-left: 650px;
 }
+.taka-card:hover{
+    background-color: #09a15c;
+}
 /* button.Done:hover end */
 .Subscribe-containar{
     display: flex;
@@ -455,6 +458,7 @@ button.Subscribe {
     background-color: #006a50;
     width: 100px;
     cursor: pointer;
+    color: white;
 }
 button.Subscribe:hover{
     background-color: #b8b8b8;
@@ -486,4 +490,18 @@ p.paragrap-13 {
     margin-top: 24px;
     font-size: 16px;
     color: #1e1b1b;
+}
+.footer-section {
+    text-align: center;
+    margin-top: 80px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+.icon {
+    margin-top: 20px;
+}
+h1.foter-bd {
+    font-size: 32px;
+    font-weight: bold;
 }
