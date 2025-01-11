@@ -221,3 +221,31 @@ button.main-mark-btn2:hover{
     background-color: #f7ebcf;
     margin-top: 32px;
 }
+/* main-marss end */
+/* main-container st */
+.main-container {
+    border: 1px solid rgb(170, 170, 170);
+    height: 180px;
+    width: 1220px;
+    border-radius: 16px;
+    padding: 24px;
+    margin-left: 70px;
+    margin-top: 32px;
+}
+
+p.maii-p {
+    font-size: 16px;
+    color: #4a4444;
+    line-height: 24px;
+}
+h1.shorkar-name {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #544f4f;
+}
+
+.main-title {
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+}
+/* main-container end */
